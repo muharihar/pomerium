@@ -10,9 +10,9 @@ description: Learn how the Pomerium Enterprise Console works.
 
 In the Pomerium Enterprise Console, a namespace is where you can define an organizational unit of users and groups with fine-grained access management. This enables teams to self-service the routes and policies pertinent to them. Namespaces can optionally inherit from their parent units.
 
-## Folders
-
 ## Service Accounts
+
+Service accounts handle machine-to-machine communication from Pomerium to your Identity Provider (**IdP**) in order to retrieve and establish group membership. Configuration is largely dependent on the IdP, but is usually an API acccess token with sufficient privlidges to read users and groups.
 
 ## Routes
 
